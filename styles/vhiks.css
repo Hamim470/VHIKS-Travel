@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Mulish", sans-serif;
+}
+
+body {
+    padding-left: 9.4%;
+    padding-right: 9.4%;
+}
+
+:root {
+    --primary-color: rgb(255, 84, 0);
+    --secondary-color: rgb(19, 19, 24);
+    --tertiary-color: rgb(66, 66, 71);
+}
+
+/* header style starts */
+
+/* nav style starts */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.wev-name-logo {
+    display: flex;
+}
+
+.wev-name-logo .span2 {
+    font-family: "Pacifico", cursive;
+    color: var(--primary-color);
+}
+
+.wev-name-logo .span1 {
+    color: var(--secondary-color);
+    font-weight: 900;
+    font-size: 1.5em;
+    margin-left: 15px;
+}
+
+.menu-items {
+    display: flex;
+    gap: 44px;
+}
+
+.menu-items a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+    font-weight: bold;
+    font-size: 1.2em;
+    transition:
+}
+
+.menu-items a:hover {
+    color: var(--primary-color);
+    font-weight: 900;
+    background-color: var(--tertiary-color);
+    border-radius: 8px;
+    padding: 4px;
+    transition: 1s;
+    display: block;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+
+/* nav style ends */
+
+
+/* header style ends */

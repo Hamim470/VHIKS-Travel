@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles/vhiks.css">
     <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -39,10 +40,29 @@
             <h1>Explore Your Travel</h1>
             <p>Discover breathtaking landscapes, immerse yourself in vibrant cultures, and savor delicious cuisines as
                 you embark on unforgettable adventures worldwide.</p>
-            <div class="find-now">
-                <input type="text" placeholder="Where go">
-                <input type="time" name="" id="" placeholder="When">
+
+            <div class="travel-search-feature">
+                <input type="text" placeholder="Where go" required>
+                <select name="" id="" required>
+                    <option value="" disabled selected>when</option>
+                    <option value="">Fajr</option>
+                    <option value="">Dhhur</option>
+                    <option value="">Asr</option>
+                    <option value="">Maghrib</option>
+                    <option value="">Isha</option>
+                </select>
+                <select required name="" id="">
+                    <option value="" disabled selected>Select Type</option>
+                    <option value="">By Air</option>
+                    <option value="">By Land</option>
+                    <option value="">By River</option>
+                </select>
+                <button>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    Find Now
+                </button>
             </div>
+            
         </section>
         <!--ends banner section  -->
     </header>

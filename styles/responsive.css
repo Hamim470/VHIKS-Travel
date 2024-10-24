@@ -1,14 +1,23 @@
 @media screen and (max-width:600px) {
 
     /* responsive for mobile device */
-    body {
-        padding-left: 3%;
-        padding-right: 3%;
+    *{
+        margin:0;
+        padding:0;
+    }
+    header {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    nav{
+        
+        align-items:start;
     }
     .menu-items{
         display:none;
         flex-direction: column;
-
+        width:400%;
+        align-items: center;
     }
     .menu-icon,.menu-toggle{
         display:flex;
@@ -36,7 +45,33 @@
         top:0;
         right: 0;
     }
-    .wev-name-logo{
-        margin-right:30px;
+    
+
+    /* banner  */
+    .banner{
+        padding-top:32px;
+        padding-bottom:32px;
+    }
+    .banner h1{
+        
+        font-size:1.5em;
+    }
+    .banner p{
+        width:90.75%;
+        font-size:0.9em;
+        margin-top:8px;
+        
+    }
+    .travel-search-feature{
+        flex-direction: column;
+        padding:5.5%;
+        width:80%;
+    }
+    .travel-search-feature select,button{
+        width:100%;
+        margin-top:16px;
+    }
+    .travel-search-feature input{
+        width:93.99%;
     }
 }

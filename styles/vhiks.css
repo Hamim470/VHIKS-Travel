@@ -12,6 +12,7 @@
     --primary-color: rgb(255, 84, 0);
     --secondary-color: rgb(19, 19, 24);
     --tertiary-color: rgb(66, 66, 71);
+    --quaternary-color: white;
 }
 
 /* header style starts */
@@ -21,6 +22,7 @@ header {
     padding-left: 9.4%;
     padding-right: 9.4%;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -47,35 +49,81 @@ nav {
 }
 
 
-.menu-toggle,.menu-icon{
-    display:none;
+.menu-toggle,
+.menu-icon {
+    display: none;
 }
-.menu-items{
-    display:flex;
-    gap:30px;
+
+.menu-items {
+    display: flex;
+    gap: 30px;
 
 }
-.menu-items a{
-    text-decoration:none;
-    color:var(--tertiary-color);
+
+.menu-items a {
+    text-decoration: none;
+    color: var(--tertiary-color);
 }
-.menu-items a:hover{
-    color:var(--primary-color);
-    font-weight:900;
+
+.menu-items a:hover {
+    color: var(--primary-color);
+    font-weight: 900;
 }
 
 /* nav style ends */
 
 
 /* banner section starts */
-.banner{
-    background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
-    object-fit: auto;
+.banner {
+    background-image: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    object-fit: cover;
     background-repeat: no-repeat;
-    padding-top:106px;
-    padding-bottom:106px;
-    
+    padding-top: 106px;
+    padding-bottom: 106px;
+    background-position: center center;
+    background-size:cover;
+    text-align: center;
+    border-radius: 16px;
 }
+
+.banner h1 {
+    font-size: 4em;
+    color: var(--quaternary-color);
+}
+
+.banner p {
+    color: var(--quaternary-color);
+    width: 58%;
+    margin: 20px auto;
+
+}
+
+.travel-search-feature {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    width: 68.5%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding:16px 0;
+}
+
+.travel-search-feature input,
+select,
+button {
+    width: 174px;
+    height: 52px;
+    color:val(--tertiary-color);
+    border:none;
+    border-radius:8px;
+    padding-left:16px;
+}
+.travel-search-feature button{
+    background-color:var(--primary-color);
+    color:var(--quaternary-color);
+    padding:0;
+}
+
 /* banner section ends */
 
 

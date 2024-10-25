@@ -74,4 +74,97 @@
     .travel-search-feature input{
         width:93.99%;
     }
+
+
+
+    /* main starts */
+    main{
+        padding-left:5%;
+        padding-right:5%;
+    }
+
+    /* tour style */
+    .tour {
+        flex-direction:column;
+        margin-top:28px;
+        margin-bottom:50px;
+    }
+    .tour-img img{
+        width:100%;
+        
+    }
+    .tour-text h1{
+        font-size:2em;
+    }
+    .tour-text button{
+        width:50%;
+        
+    }
+    
+
+
+    /* destination */
+    .destination{
+        margin-top:30px;
+        margin-
+    }
+    .destination .heading{
+        
+        font-size:1.5em;
+    }
+    .destination-img-1{
+        flex-direction:column;
+    }     
+    .destination-img-1 img{
+        width:100%;
+        object-fit: cover;
+        height:177px;
+        border-radius:16px;
+    }     
+
+    .destination-img-2{
+        flex-direction:column;
+    }     
+    .destination-img-2 img{
+        width:100%;
+        object-fit: cover;
+        height:177px;
+        border-radius:16px;
+    } 
+
+    .destination-img-3{
+        flex-direction:column;
+
+    }     
+    .destination-img-3 img{
+        width:100%;
+        object-fit:cover;
+        height:177px;
+        border-radius:16px;
+    }    
+    
+    .img-1  h1{
+        left:30%;
+        top:40%;
+    }
+    .img-2  h1{
+        left:31%;
+        top:40%;
+    }
+    .img-2 .north-america{
+        left:16%;
+    }
+    .img-2 .kashmir{
+        left:30%;
+    }
+    .img-3  h1{
+        left:26%;
+        top:40%;
+    }
+    .img-3 .bangladesh{
+        left:23%;
+    }
+
+    /* main ends */
+    
 }

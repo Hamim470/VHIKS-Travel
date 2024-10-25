@@ -81,7 +81,7 @@ nav {
     padding-top: 106px;
     padding-bottom: 106px;
     background-position: center center;
-    background-size:cover;
+    background-size: cover;
     text-align: center;
     border-radius: 16px;
 }
@@ -105,7 +105,7 @@ nav {
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    padding:16px 0;
+    padding: 16px 0;
 }
 
 .travel-search-feature input,
@@ -113,18 +113,163 @@ select,
 button {
     width: 174px;
     height: 52px;
-    color:val(--tertiary-color);
-    border:none;
-    border-radius:8px;
-    padding-left:16px;
+    color: val(--tertiary-color);
+    border: none;
+    border-radius: 8px;
+    padding-left: 16px;
 }
-.travel-search-feature button{
-    background-color:var(--primary-color);
-    color:var(--quaternary-color);
-    padding:0;
+
+.travel-search-feature button {
+    background-color: var(--primary-color);
+    color: var(--quaternary-color);
+    padding: 0;
 }
 
 /* banner section ends */
 
 
+
+
+
+
+
+
+
 /* header style ends */
+
+
+
+
+
+
+/* main styles starts */
+main {
+    padding-left: 9.4%;
+    padding-right: 9.4%;
+}
+
+/* tour section starts */
+.tour {
+    display: flex;
+    margin: 100px auto;
+    gap: 50px;
+}
+
+.heading {
+    color: var(--secondary-color);
+    font-size: 2.5em;
+    font-weight: 800;
+}
+
+.tour-text ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.tour-text p,
+li {
+    color: var(--tertiary-color);
+    margin-top: 24px;
+}
+
+.tour-text button {
+    background-color: var(--primary-color);
+    color: var(--quaternary-color);
+    padding: 0;
+    margin-top: 24px;
+}
+
+/* tour section ends */
+
+
+
+/* destination starts */
+
+.destination {
+    text-align: center;
+}
+
+.destination p {
+    color: var(--tertiary-color);
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.destination-img-1 h1 {
+    color: var(--quaternary-color);
+}
+
+.destination-img-2 h1 {
+    color: var(--quaternary-color);
+}
+
+.destination-img-3 h1 {
+    color: var(--quaternary-color);
+}
+
+
+
+.destination-img-1 {
+    display: flex;
+    gap: 24px;
+    margiN-top: 48px;
+    margin-bottom: 24px;
+    position: relative;
+}
+.img-1 {
+    position:relative;
+}
+.img-1  h1{
+    position:absolute;
+    left:40%;
+    top:45%;
+}
+
+.img-2 {
+    position:relative;
+}
+.img-2  h1{
+    position:absolute;
+    left:35%;
+    top:45%;
+}
+.img-2 .north-america{
+    left:25%;
+}
+.img-2 .kashmir{
+    left:28%;
+}
+
+.img-3 {
+    position:relative;
+}
+.img-3  h1{
+    position:absolute;
+    left:37%;
+    top:45%;
+}
+.img-3 .bangladesh{
+    left:33%;
+}
+
+
+.destination-img-2 {
+    display: flex;
+    gap: 24px;
+    margiN-top: 24px;
+    margin-bottom: 24px;
+}
+
+.destination-img-3 {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+
+/* destination ends */
+
+
+
+/* main styles ends */

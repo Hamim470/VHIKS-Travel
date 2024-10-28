@@ -216,40 +216,47 @@ li {
     margin-bottom: 24px;
     position: relative;
 }
+
 .img-1 {
-    position:relative;
+    position: relative;
 }
-.img-1  h1{
-    position:absolute;
-    left:40%;
-    top:45%;
+
+.img-1 h1 {
+    position: absolute;
+    left: 40%;
+    top: 45%;
 }
 
 .img-2 {
-    position:relative;
+    position: relative;
 }
-.img-2  h1{
-    position:absolute;
-    left:35%;
-    top:45%;
+
+.img-2 h1 {
+    position: absolute;
+    left: 35%;
+    top: 45%;
 }
-.img-2 .north-america{
-    left:25%;
+
+.img-2 .north-america {
+    left: 25%;
 }
-.img-2 .kashmir{
-    left:28%;
+
+.img-2 .kashmir {
+    left: 28%;
 }
 
 .img-3 {
-    position:relative;
+    position: relative;
 }
-.img-3  h1{
-    position:absolute;
-    left:37%;
-    top:45%;
+
+.img-3 h1 {
+    position: absolute;
+    left: 37%;
+    top: 45%;
 }
-.img-3 .bangladesh{
-    left:33%;
+
+.img-3 .bangladesh {
+    left: 33%;
 }
 
 
@@ -271,5 +278,356 @@ li {
 /* destination ends */
 
 
+/* choose section starts */
+
+.choose .heading {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.choose .paragraph {
+    accent-color: var(--tertiary-color);
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.choose-div-container {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.choose-div {
+    width: calc(50% - 72px);
+    padding: 24px;
+}
+
+.choose-div img {
+    width: 11.17%;
+}
+
+.choose-div-container h1 {
+    color: var(--secondary-color);
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.choose-div-container p {
+    color: var(--tertiary-color);
+
+}
+
+.choose-div-container .a {
+    background-color: rgba(251, 181, 99, 0.05);
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    border-radius: 16px;
+}
+
+.choose-div-container .b {
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    border-radius: 16px;
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.choose-div-container .c {
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    border-radius: 16px;
+    background: rgba(233, 68, 68, 0.05);
+}
+
+/* choose section ends */
+
+
+/* deals starts */
+.deals {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.deals>p {
+    width: 80%;
+    margin: 22px auto;
+    color:
+}
+
+.deals-1 {
+    background-image: url("../images/Group\ 39.png");
+    border-radius: 16px;
+    background-position: center center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4.8% 4.8% 4.8% 45.7%;
+    margin-bottom: 22px;
+}
+
+.deals-2 {
+    background-image: url("../images/Group\ 40.png");
+    border-radius: 16px;
+    background-position: center center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4.8% 45.7% 4.8% 4.8%;
+    margin-bottom: 22px;
+}
+
+.deals-3 {
+    background-image: url("../images/Group\ 39.png");
+    border-radius: 16px;
+    background-position: center center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4.8% 4.8% 4.8% 45.7%;
+    margin-bottom: 22px;
+}
+
+.deals-1 .deals-part {
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+}
+
+.deals-2 .deals-part {
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+}
+
+.deals-3 .deals-part {
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+}
+
+.deals-part {
+    text-align: start;
+}
+
+.deals-part h1 {
+    color: var(--primary-color);
+}
+
+.deals-part p {
+    color: var(--tertiary-color);
+    margin-bottom: 9px;
+}
+
+.deals-part h3 {
+    color: var(--primary-color);
+    margin-bottom: 24px;
+}
+
+.deals-part button {
+    background-color: var(--primary-color);
+    padding-left: 0;
+    color: var(--quaternary-color);
+    font-weight: 900;
+    font-size: large;
+}
+
+.booking {
+    display: flex;
+
+}
+
+.booking p {
+    display: inline;
+    margin-right: 25.5px;
+}
+
+.booking .fa-solid {
+    color: var(--primary-color);
+    margin-right: 9px;
+}
+
+.deals-part h1 {
+    font-size: 1.6em;
+    margin-top: 22px;
+    margin-bottom: 7px;
+}
+
+/* deals ends */
+
+
+
+
+
+
+/* perfect place styles */
+
+.perfect-place {
+    display: flex;
+    margin-top: 100px;
+    gap: 24px;
+}
+
+.perfect-place h1 {
+    width: 90%;
+}
+
+.perfect-place p {
+    color: var(--tertiary-color);
+    margin: 22px 0;
+}
+
+.perfect-place li {
+    margin-left: 19px;
+
+}
+
+.perfect-place button {
+    color: var(--quaternary-color);
+    background-color: var(--primary-color);
+    padding-left: 0;
+    font-size: 1.4em;
+    font-weight: 800;
+    margin-top: 22px;
+}
+
+.perfect-place-text {
+    width: 532px;
+}
+
+.perfect-place-video video {
+    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.perfect-place-video {
+    position: relative;
+    width: 52%;
+}
+
+.perfect-place-video h4 {
+    position: absolute;
+    color: var(--quaternary-color);
+    top: 188px;
+    left: 175px;
+    font-size: 1.5em;
+    width: 45.2%;
+    text-align: center;
+}
+
+
+
+/* newsletter styles */
+.newsletter {
+    display: flex;
+    gap: 24px;
+    height: min-content;
+    margin-top: 100px;
+}
+
+.newsletter-text {
+    width: 40.5%;
+    padding: 40px;
+    border: 1px solid var(--primary-color);
+    border-radius: 16px;
+
+}
+
+.newsletter-img {
+    background-image: url(../images/Rectangle\ 8\ \(1\).png);
+    width: 57.4%;
+    object-fit: cover;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+}
+
+
+
+.newsletter-text p {
+    color: var(--tertiary-color);
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.mark {
+    border: 1px solid rgba(19, 19, 24, 0.1);
+}
+
+.newsletter input {
+    width: 100%;
+    height: 3em;
+    border: none;
+    background-color: rgb(241, 239, 239);
+    margin-top: 24px;
+}
+
+.newsletter button {
+    margin-top: 24px;
+    width: 100%;
+    padding-left: 0;
+    background-color: var(--primary-color);
+    color: var(--quaternary-color);
+    font-size: 1.4em;
+    font-weight: 800;
+}
+
+.newsletter-img {
+    position: relative;
+}
+
+.save-up {
+    width: 42.2%;
+    background-color: var(--primary-color);
+    border-radius: 16px;
+    padding: 20px 40px;
+    text-align: center;
+    color: var(--quaternary-color);
+    position: absolute;
+    left: 44%;
+    bottom: 14.5%;
+    transform: rotate(-20deg);
+}
+
+
 
 /* main styles ends */
+
+/* footer styles */
+footer {
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    padding: 110px 300px;
+}
+
+footer .wev-name-logo {
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+footer p {
+    color: var(--tertiary-color);
+}
+
+footer .icons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 40px;
+
+}
+
+.last-p {
+    margin-top:40px;
+}
